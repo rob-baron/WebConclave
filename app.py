@@ -11,6 +11,7 @@ def config():
     """
 
     if request.method == 'POST':
+        """
         cfg = request.form.get('cfg')
 
         template = \
@@ -40,6 +41,8 @@ def config():
         protocol = request.files['protocol']
 
         return conf, protocol
+        """
+        return "App Recieved"
     else:
         return "Hello"
 
