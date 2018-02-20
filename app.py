@@ -42,9 +42,9 @@ def config():
 
         return conf, protocol
         """
-        return "App Recieved"
+        return "<html><body>App Recieved</body></html>"
     else:
-        return "Hello"
+        return "<html><body>Hello</body></html>"
 
 
 if __name__ == "__main__":
